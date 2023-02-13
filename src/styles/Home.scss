@@ -1,0 +1,38 @@
+.homepage-section {
+  background-color: #20202c;
+  min-height: 1080px;
+  background-image: url("../assets/img/homeback.png");
+  background-repeat: no-repeat;
+  background-position: right;
+
+  .homepage-container {
+    min-height: 1080px;
+    max-width: 952px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .title {
+      font-size: 64px;
+      line-height: 110%;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      span {
+        color: #29bec8;
+      }
+    }
+    .subtitle,
+    .sub-subtitle {
+      max-width: 457px;
+      margin-top: 40px;
+      font-size: 18px;
+      line-height: 140%;
+    }
+    .subtitle {
+      margin-top: 15px;
+    }
+    .mainbutton {
+      margin-top: 60px;
+    }
+  }
+}

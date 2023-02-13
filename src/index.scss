@@ -1,0 +1,84 @@
+// FONTS
+@font-face {
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Monument Extended"),
+    url("./assets/fonts/MonumentExtended-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Formular";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Formular"),
+    url("./assets/fonts/formular-regular-trial.woff") format("woff");
+}
+@font-face {
+  font-family: "Formular";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Formular"),
+    url("./assets/fonts/formular-medium-trial.woff") format("woff");
+}
+//
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Formular", sans-serif;
+  font-weight: 400;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Monument Extended", sans-serif;
+  font-weight: 400;
+}
+
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 80px;
+  @media (max-width: 1200px) {
+    padding: 0 60px;
+  }
+  @media (max-width: 1024px) {
+    padding: 0 50px;
+  }
+  @media (max-width: 768px) {
+    padding: 0 40px;
+  }
+  @media (max-width: 480px) {
+    padding: 0 30px;
+  }
+}
+
+.container {
+  max-width: 1760px;
+  margin: 0 auto;
+  padding: 0 80px;
+  @media (max-width: 1200px) {
+    padding: 0 60px;
+  }
+  @media (max-width: 1024px) {
+    padding: 0 30px;
+  }
+  @media (max-width: 768px) {
+    padding: 0 10px;
+  }
+  @media (max-width: 480px) {
+    padding: 0;
+  }
+}
