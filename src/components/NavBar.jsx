@@ -26,8 +26,8 @@ const NavBar = () => {
         <div className="wrapper">
           <div className="navbar-container">
             <div className="nav-logo">
-              <img src={Logo} alt="Logo" />
-              <img src={LogoText} alt="LogoText" />
+              <img src={Logo} alt="Logo" className="logo" />
+              <img src={LogoText} alt="LogoText" className="textlogo" />
             </div>
             <div className="menu-icon" onClick={toogleMenu}>
               {mobileMenu ? <FaTimes /> : <HiBars2 />}
