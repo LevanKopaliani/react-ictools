@@ -1,3 +1,4 @@
+import DemoRequest from "../components/DemoRequest";
 import MainButton from "../components/MainButton";
 import "../styles/Home.scss";
 import HomeSectionThree from "./Sections/HomeSectionThree";
@@ -35,6 +36,7 @@ const Home = () => {
       </section>
       <HomeSectionTwo />
       <HomeSectionThree />
+      <DemoRequest />
     </main>
   );
 };

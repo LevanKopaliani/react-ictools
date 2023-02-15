@@ -1,0 +1,175 @@
+.DemoRequest {
+  .wrapper {
+    @media (max-width: 1024px) {
+      padding: 0;
+    }
+  }
+  background-color: #20202c;
+  padding: 125px 0 100px 0;
+  .demorequest-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #181824;
+    border-radius: 34px;
+    min-height: 681px;
+    height: initial;
+    padding: 81px 120px 85px 120px;
+    @media (max-width: 1600px) {
+      padding: 81px 110px;
+    }
+    @media (max-width: 1480px) {
+      flex-direction: column;
+    }
+    @media (max-width: 1200px) {
+      padding: 80px 100px;
+    }
+    @media (max-width: 1024px) {
+      padding: 80px 80px;
+      border-radius: 0;
+    }
+    @media (max-width: 768px) {
+      padding: 80px 50px;
+    }
+    @media (max-width: 480px) {
+      padding: 60px 30px;
+    }
+    @media (max-width: 320px) {
+      padding: 60px 15px;
+    }
+    .request-text {
+      max-width: 802px;
+      .request-title {
+        padding-right: 16px;
+        font-size: 50px;
+        line-height: 130%;
+        text-transform: uppercase;
+        @media (max-width: 1024px) {
+          font-size: 44px;
+          padding-right: 0;
+        }
+        @media (max-width: 480px) {
+          font-size: 30px;
+        }
+      }
+      .request-subtitle {
+        margin-top: 10px;
+        max-width: 280px;
+        font-size: 16px;
+        line-height: 140%;
+      }
+      .request-list {
+        position: relative;
+        margin-top: 31px;
+        max-width: 330px; // 170px
+        max-height: 297px;
+
+        list-style: none;
+        padding: 27px 0 27px 0;
+        &::before {
+          top: 0;
+          left: 7px;
+          position: absolute;
+          content: "";
+          display: block;
+          height: 170px;
+          width: 1px;
+          background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0) 0%,
+            #ffffff 52.89%,
+            rgba(255, 255, 255, 0) 100%
+          );
+          opacity: 0.7;
+          @media (max-width: 480px) {
+            left: 3.5px;
+            font-size: 15px;
+            line-height: 100%;
+          }
+        }
+        .list-item {
+          font-size: 16px;
+          line-height: 140%;
+          @media (max-width: 480px) {
+            font-size: 15px;
+            line-height: 100%;
+          }
+
+          &:not(:first-child) {
+            margin-top: 25px;
+          }
+          position: relative;
+
+          &::before {
+            margin-right: 25px;
+            position: relative;
+            content: "";
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background: #ffffff;
+            @media (max-width: 480px) {
+              width: 9px;
+              height: 9px;
+            }
+          }
+        }
+      }
+    }
+    .request-form {
+      max-width: 630px;
+      width: 100%;
+      margin-top: 49px;
+      @media (max-width: 480px) {
+        margin-top: 0;
+      }
+
+      form {
+        .form-title {
+          font-size: 36px;
+          line-height: 100%;
+          letter-spacing: 0.03em;
+          text-transform: uppercase;
+          @media (max-width: 480px) {
+            display: none;
+          }
+        }
+        .form-subtitle {
+          margin-top: 15px;
+          font-size: 16px;
+          line-height: 140%;
+          @media (max-width: 480px) {
+            display: none;
+          }
+        }
+        .form-inputs {
+          padding: 40px 0;
+          display: grid;
+          grid-template-columns: repeat(2, minmax(300px, 1fr));
+          gap: 30px;
+          @media (max-width: 720px) {
+            grid-template-columns: 1fr;
+          }
+          input {
+            background-color: #181824;
+            padding: 32.5px 0 32.5px 30px;
+            max-width: 300px;
+            height: 80px;
+            border: 1px solid rgba(62, 62, 74, 0.7);
+            border-radius: 18px;
+            @media (max-width: 720px) {
+              max-width: 100%;
+            }
+            &::placeholder {
+              opacity: 0.7;
+            }
+          }
+        }
+        .form-button {
+          max-width: 300px;
+          height: 80px;
+        }
+      }
+    }
+  }
+}
