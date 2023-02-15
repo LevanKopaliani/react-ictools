@@ -1,4 +1,5 @@
 import DemoRequest from "../components/DemoRequest";
+import Footer from "../components/Footer";
 import MainButton from "../components/MainButton";
 import "../styles/Home.scss";
 import HomeSectionThree from "./Sections/HomeSectionThree";
@@ -37,6 +38,7 @@ const Home = () => {
       <HomeSectionTwo />
       <HomeSectionThree />
       <DemoRequest />
+      <Footer />
     </main>
   );
 };

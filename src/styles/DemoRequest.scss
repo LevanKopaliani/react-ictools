@@ -6,6 +6,9 @@
   }
   background-color: #20202c;
   padding: 125px 0 100px 0;
+  @media (max-width: 1024px) {
+    padding: 0;
+  }
   .demorequest-container {
     display: flex;
     justify-content: space-between;
@@ -168,6 +171,9 @@
         .form-button {
           max-width: 300px;
           height: 80px;
+          @media (max-width: 480px) {
+            max-width: 100%;
+          }
         }
       }
     }
