@@ -1,5 +1,6 @@
 import MainButton from "../components/MainButton";
 import "../styles/About.scss";
+import AboutSectionFour from "./Sections/AboutSectionFour";
 import AboutSectionthree from "./Sections/AboutSectionthree";
 import AboutSectionTwo from "./Sections/AboutSectionTwo";
 
@@ -41,6 +42,7 @@ const About = () => {
       </section>
       <AboutSectionTwo />
       <AboutSectionthree />
+      <AboutSectionFour />
     </main>
   );
 };

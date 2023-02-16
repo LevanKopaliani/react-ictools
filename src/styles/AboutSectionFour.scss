@@ -1,0 +1,62 @@
+.AboutSectionFour {
+  background-color: #20202c;
+  .sectionfour-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 125px 0 125px 0;
+    @media (max-width: 768px) {
+      padding: 0 0 70px 0;
+    }
+    .wrapper {
+      @media (max-width: 1200px) {
+        margin: 0;
+      }
+    }
+
+    @media (max-width: 1200px) {
+      flex-direction: column-reverse;
+      gap: 60px;
+    }
+    .info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 30px;
+      @media (max-width: 1024px) {
+        gap: 20px;
+      }
+      @media (max-width: 480px) {
+        gap: 15px;
+      }
+      .title {
+        font-size: 60px;
+        line-height: 115%;
+        letter-spacing: 0.05em;
+      }
+      .subtitle {
+        max-width: 435px;
+        font-size: 22px;
+        line-height: 140%;
+      }
+
+      .sectionfour-button {
+        max-width: 300px;
+        height: 70px;
+        margin-top: 30px;
+        @media (max-width: 480px) {
+          height: 60px;
+          max-width: 100%;
+        }
+      }
+    }
+    .team-img {
+      img {
+        left: 0;
+        position: relative;
+        max-height: 748px;
+        width: 100%;
+      }
+    }
+  }
+}
