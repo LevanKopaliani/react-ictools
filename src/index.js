@@ -4,6 +4,7 @@ import "./index.scss";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
+import About from "./pages/About";
 
 const Applayout = () => {
   return (
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/about",
+        element: <About />,
       },
     ],
   },

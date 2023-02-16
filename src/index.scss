@@ -9,6 +9,13 @@
 @font-face {
   font-family: "Formular";
   font-style: normal;
+  font-weight: 300;
+  src: local("Formular"),
+    url("./assets/fonts/formular-light-trial.woff") format("woff");
+}
+@font-face {
+  font-family: "Formular";
+  font-style: normal;
   font-weight: 400;
   src: local("Formular"),
     url("./assets/fonts/formular-regular-trial.woff") format("woff");

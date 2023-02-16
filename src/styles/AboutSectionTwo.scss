@@ -1,0 +1,137 @@
+.AboutSectionTwo {
+  @media (max-width: 1024px) {
+    .container {
+      padding: 0;
+    }
+  }
+  background-color: #20202c;
+  .sectiontwo-container {
+    min-height: 550px;
+    padding: 200px 0 125px 0;
+    @media (max-width: 1024px) {
+      padding: 100px 0 62.5px 0;
+    }
+    .title {
+      font-size: 60px;
+      line-height: 125%;
+      letter-spacing: 0.05em;
+    }
+    .small-screen {
+      display: none;
+      @media (max-width: 480px) {
+        margin-top: 20px;
+        display: block;
+      }
+    }
+    .content {
+      margin-top: 100px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 60px;
+      justify-content: space-between;
+      overflow: hidden;
+      .birds {
+        position: relative;
+        // max-width: 792px;
+        min-width: max-content;
+        min-height: 300px;
+        @media (max-width: 660px) {
+          min-height: 200px;
+        }
+        @media (max-width: 480px) {
+          min-height: 140px;
+        }
+        display: inline-flex;
+        overflow: hidden;
+
+        .birds-group2 {
+          position: relative;
+          //   left: -66px;
+          left: -10%;
+        }
+        .birds-item {
+          //   display: inline-block;
+          position: relative;
+          background: transparent;
+          display: inline-flex;
+          flex: 1;
+          justify-content: center;
+          text-align: center;
+          align-items: center;
+          width: 223px;
+          height: 222px;
+          min-height: 88px;
+          border: 1px solid rgba(255, 255, 255, 0.15);
+          border-radius: 50%;
+          img {
+            width: 40%;
+            max-width: 100%;
+            // max-width: 43px;
+          }
+          // backdrop-filter: blur(7.5px); hides border
+
+          @media (max-width: 1024px) {
+            width: 205px;
+            height: 205px;
+          }
+          @media (max-width: 960px) {
+            width: 195px;
+            height: 195px;
+          }
+          @media (max-width: 860px) {
+            width: 188px;
+            height: 188px;
+          }
+          @media (max-width: 768px) {
+            width: 188px;
+            height: 188px;
+          }
+          @media (max-width: 740px) {
+            width: 168px;
+            height: 168px;
+          }
+          @media (max-width: 660px) {
+            width: 148px;
+            height: 148px;
+          }
+          @media (max-width: 580px) {
+            width: 128px;
+            height: 128px;
+          }
+          @media (max-width: 540px) {
+            width: 118px;
+            height: 118px;
+          }
+          @media (max-width: 480px) {
+            width: 88px;
+            height: 88px;
+          }
+          @media (max-width: 360px) {
+            width: 72px;
+            height: 72px;
+          }
+          &:nth-child(2) {
+            top: 25%;
+            // left: -33px;
+            left: -10%;
+          }
+        }
+      }
+      .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        .subtitle {
+          max-width: 475px;
+          @media (max-width: 480px) {
+            display: none;
+          }
+        }
+        .sub-subtitle {
+          max-width: 550px;
+        }
+      }
+    }
+  }
+}
