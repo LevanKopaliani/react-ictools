@@ -30,7 +30,11 @@ const Home = () => {
                 <p className="sub-subtitle">Ready to empower your creatives?</p>
               </div>
 
-              <MainButton text={"Request a demo today"} type={"mainbutton"} />
+              <MainButton
+                text={"Request a demo today"}
+                type={"mainbutton"}
+                modal={true}
+              />
             </div>
           </div>
         </div>

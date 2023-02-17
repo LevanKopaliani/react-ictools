@@ -1,9 +1,16 @@
+import { useState } from "react";
 import "../styles/MainButton.scss";
+import Modal from "./Modal/Modal";
+import { handleModal, closeModal } from "./Modal/Modal";
 
-const MainButton = ({ text, type }) => {
+const MainButton = ({ text, type, modal = false }) => {
+  const [openModal, setOpenModal] = useState(false);
   return (
     <div className="MainButton">
-      <button className={type}>{text}</button>
+      <button className={type} onClick={modal ? () => setOpenModal(true) : ""}>
+        {text}
+      </button>
+      {modal && <Modal open={openModal} onClose={() => setOpenModal(false)} />}
     </div>
   );
 };

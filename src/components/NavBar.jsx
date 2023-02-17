@@ -82,7 +82,11 @@ const NavBar = () => {
                 </NavLink>
               </li>
               <div className="menu-footer">
-                <MainButton text={"request demo today"} type={"nav"} />
+                <MainButton
+                  text={"request demo today"}
+                  type={"nav"}
+                  modal={true}
+                />
                 <div className="addressbar">
                   <div className="contacts">
                     <div className="head-office">
@@ -139,7 +143,11 @@ const NavBar = () => {
                 checked={checked}
                 onChange={setChecked}
               />
-              <MainButton text={"Book a consultation"} type={"nav"} />
+              <MainButton
+                text={"Book a consultation"}
+                type={"nav"}
+                modal={true}
+              />
             </div>
           </div>
         </div>
