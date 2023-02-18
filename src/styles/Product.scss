@@ -1,0 +1,60 @@
+.product {
+  background-color: #20202c;
+}
+.product-section {
+  background-color: #20202c;
+  min-height: 1080px;
+  height: 100%;
+  background-image: url("../assets/img/productsback.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  @media (max-width: 768px) {
+    min-height: 1230px;
+    background-image: url("../assets/img/homemobileback768.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  @media (max-width: 480px) {
+    min-height: 450px;
+    background-image: url("../assets/img/homemobileback.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+
+  .product-container {
+    min-height: 1080px;
+    height: 100%;
+    max-width: 952px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @media (max-width: 768px) {
+      height: initial;
+      justify-content: flex-start;
+      padding: 165px 0 60px 0;
+    }
+    @media (max-width: 480px) {
+      min-height: 800px;
+      justify-content: space-between;
+      padding: 122px 0 60px 0;
+    }
+
+    .title {
+      font-size: 64px;
+      line-height: 130%;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    .subtitle,
+    .sub-subtitle {
+      max-width: 330px;
+      margin-top: 20px;
+      font-size: 18px;
+      line-height: 140%;
+    }
+
+    .mainbutton {
+      margin-top: 60px;
+    }
+  }
+}

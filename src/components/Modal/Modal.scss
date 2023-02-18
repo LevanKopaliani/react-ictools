@@ -9,7 +9,7 @@
   .modal-container {
     position: fixed;
     z-index: 999;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 600px;
@@ -49,11 +49,14 @@
           margin: 15 15px;
         }
         .date {
+          font-family: "Formular" !important;
           padding: 12px 15px;
           background-color: white;
           color: #211e1e;
           width: 130px;
           margin: 0 auto;
+          font-size: 11px !important;
+          line-height: 100%;
         }
         .content-title {
           margin-top: 15px;
@@ -63,12 +66,14 @@
           text-transform: uppercase;
         }
         .content-subtitle {
+          font-family: "Formular" !important;
           margin-top: 12px;
           font-size: 14px;
           line-height: 100%;
           opacity: 0.5;
         }
         .content-text {
+          font-family: "Formular" !important;
           margin-top: 35px;
           font-size: 14px;
           line-height: 140%;

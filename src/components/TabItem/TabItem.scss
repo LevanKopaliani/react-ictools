@@ -1,0 +1,58 @@
+.TabItem {
+  min-width: 380px;
+  height: 105px;
+  padding: 31px 30px;
+  border-radius: 10px;
+  backdrop-filter: blur(20px);
+  clip-path: polygon(100% 0, 100% 75%, 93% 100%, 0 100%, 0 0);
+  position: relative;
+  display: flex;
+  gap: 28px;
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    border-radius: 10px;
+    clip-path: polygon(100% 0, 100% 75%, 93% 100%, 0 100%, 0 0);
+    background: #2f2f3d;
+    z-index: -1;
+  }
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 320px;
+    height: 5px;
+    bottom: 0;
+    z-index: 9;
+    // background: linear-gradient(270deg, #9574e4 4.69%, #00d897 100%);
+    background-color: transparent;
+  }
+
+  .tab-info {
+    .tab-title {
+      margin-top: 12px;
+      font-size: 18px;
+      line-height: 100%;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    .tab-subtitle {
+      font-size: 14px;
+      line-height: 100%;
+      opacity: 0.7;
+    }
+  }
+  .bottom-line {
+    position: absolute;
+    width: 320px;
+    height: 5px;
+    bottom: 0;
+    border-radius: 5px 5px 0 0;
+  }
+}

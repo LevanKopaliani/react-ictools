@@ -10,7 +10,7 @@ const MainButton = ({ text, type, modal = false }) => {
       <button className={type} onClick={modal ? () => setOpenModal(true) : ""}>
         {text}
       </button>
-      {modal && <Modal open={openModal} onClose={() => setOpenModal(false)} />}
+      <Modal open={openModal} onClose={() => setOpenModal(false)} />
     </div>
   );
 };

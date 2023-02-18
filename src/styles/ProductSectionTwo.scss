@@ -1,0 +1,11 @@
+.PagesSectionTwo {
+  background-color: #2b2b37;
+  .sectiontwo-container {
+    min-height: 1080px;
+    padding: 80px 0;
+    .tabs {
+      display: flex;
+      gap: 15px;
+    }
+  }
+}

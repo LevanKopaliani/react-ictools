@@ -41,9 +41,9 @@
   // height: 80px;
   // border-bottom: 2px solid transparent;
 }
-.nav-item:hover {
-  border-bottom: 5px solid #9b59b6;
-}
+// .nav-item:hover {
+//   border-bottom: 5px solid #9b59b6;
+// }
 .nav-links {
   // height: 100%;
   // display: flex;
@@ -189,7 +189,7 @@
       justify-content: flex-start;
       width: 100%;
       top: 80px;
-      left: -100%;
+      left: -200%;
       height: calc(100% - 80px);
 
       transition: all 0.5s ease;
