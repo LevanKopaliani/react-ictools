@@ -1,8 +1,21 @@
 import "./TabItem.scss";
 
-const TabItem = ({ img, name, title, subtitle, style }) => {
+const TabItem = ({
+  img,
+  name,
+  title,
+  subtitle,
+  onPush,
+  style,
+  activeStyle,
+}) => {
   return (
-    <div className="TabItem" name={name} style={{ background: style }}>
+    <div
+      className="TabItem"
+      id={name}
+      onClick={onPush}
+      style={{ background: activeStyle === name ? style : null }}
+    >
       <div className="tab-img">
         <img src={img} alt="" />
       </div>

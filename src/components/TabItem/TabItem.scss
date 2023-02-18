@@ -4,6 +4,8 @@
   padding: 31px 30px;
   border-radius: 10px;
   backdrop-filter: blur(20px);
+  //   background-color: transparent;
+  background-color: rgba($color: white, $alpha: 0.1);
   clip-path: polygon(100% 0, 100% 75%, 93% 100%, 0 100%, 0 0);
   position: relative;
   display: flex;
@@ -54,5 +56,8 @@
     height: 5px;
     bottom: 0;
     border-radius: 5px 5px 0 0;
+    @media (max-width: 1024px) {
+      display: none;
+    }
   }
 }

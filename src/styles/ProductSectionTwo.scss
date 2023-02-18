@@ -1,11 +1,36 @@
-.PagesSectionTwo {
+.ProductSectionTwo {
+  min-height: 1080px;
+  padding: 80px 0 0 0;
   background-color: #2b2b37;
-  .sectiontwo-container {
-    min-height: 1080px;
-    padding: 80px 0;
-    .tabs {
+  @media (max-width: 1024px) {
+    background-color: transparent;
+  }
+  .tabs {
+    background-color: #2b2b37;
+    @media (max-width: 1024px) {
+      background-color: transparent;
+      padding-bottom: 40px;
+    }
+    .tabs-container {
+      background-color: transparent;
       display: flex;
       gap: 15px;
+      .tabsSwipper {
+        .swiper-slide {
+          max-width: 380px;
+        }
+      }
+      .category-swipper {
+        display: none;
+        @media (max-width: 1024px) {
+          display: flex;
+        }
+      }
     }
+  }
+  .tabs-content {
+    padding: 96px 0 80px 0;
+    min-height: 900px;
+    background-color: #2b2b37;
   }
 }
