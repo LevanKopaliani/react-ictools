@@ -10,6 +10,8 @@ const TabItemData = [
     category: "Development",
     title: "Ardenna",
     subtitle: "Development",
+    subSubtitle:
+      "Cloud-based Pixel Streaming solution for Unreal Engine and Unity.",
     activeColor: "linear-gradient(270deg, #9574E4 4.69%, #00D897 100%)",
   },
   {
@@ -18,6 +20,7 @@ const TabItemData = [
     category: "Development",
     title: "Shearwater",
     subtitle: "Development",
+    subSubtitle: "Real-time Production Tool Suite. backend for mobile gaming.",
     activeColor: "linear-gradient(270deg, #9574E4 4.69%, #00D897 100%)",
   },
   {
@@ -26,6 +29,8 @@ const TabItemData = [
     category: "Pre-Production",
     title: "Accipiter",
     subtitle: "Pre-Production",
+    subSubtitle:
+      "Cloud-based Pixel Streaming solution for Unreal Engine and Unity.",
     activeColor: "linear-gradient(122.92deg, #DD2980 15.72%, #F98DC1 76.42%)",
   },
   {
@@ -34,6 +39,8 @@ const TabItemData = [
     category: "Pre-Production",
     title: "Production",
     subtitle: "Pre-Production",
+    subSubtitle:
+      "Cloud-based Pixel Streaming solution for Unreal Engine and Unity.",
     activeColor: "linear-gradient(90deg, #FBFF83 0%, #95C213 99.21%)",
   },
 ];

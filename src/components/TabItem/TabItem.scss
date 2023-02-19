@@ -43,11 +43,22 @@
       line-height: 100%;
       letter-spacing: 0.05em;
       text-transform: uppercase;
+      @media (max-width: 1024px) {
+        margin-top: 0;
+      }
     }
     .tab-subtitle {
       font-size: 14px;
       line-height: 100%;
       opacity: 0.7;
+      @media (max-width: 1024px) {
+        display: none;
+      }
+    }
+    .tab-sub-subtitle {
+      margin-top: 15px;
+      font-size: 14px;
+      line-height: 140%;
     }
   }
   .bottom-line {
