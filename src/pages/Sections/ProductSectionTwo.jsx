@@ -5,6 +5,9 @@ import "../../styles/ProductSectionTwo.scss";
 // swipper //
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+//Tabs
+import Ardenna from "./Tabs/Ardenna";
+import Shearwater from "./Tabs/Shearwater";
 //
 
 const ProductSectionTwo = () => {
@@ -121,8 +124,8 @@ const ProductSectionTwo = () => {
         <div className="wrapper">
           <div className="container">
             <div className="tabs-content-container">
-              {activeTable === "Ardenna" && <h1>Ardenna</h1>}
-              {activeTable === "Shearwater" && <h1>Shearwater</h1>}
+              {activeTable === "Ardenna" && <Ardenna />}
+              {activeTable === "Shearwater" && <Shearwater />}
             </div>
           </div>
         </div>

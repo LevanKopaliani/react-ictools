@@ -10,6 +10,13 @@
   position: relative;
   display: flex;
   gap: 28px;
+  @media (max-width: 480px) {
+    min-width: 315px;
+  }
+  @media (max-width: 380px) {
+    min-width: auto;
+    height: auto;
+  }
 
   &::before {
     content: "";

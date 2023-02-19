@@ -1,0 +1,99 @@
+.shearwater {
+  .head-container {
+    display: flex;
+    justify-content: space-between;
+    .title {
+      max-width: 760px;
+      font-size: 44px;
+      line-height: 115%;
+      letter-spacing: 0.05em;
+    }
+    .workflow-blocks {
+      display: flex;
+      gap: 50px;
+      .traditional,
+      .icvr {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+
+        .title {
+          font-size: 24px;
+          line-height: 100%;
+          letter-spacing: 0.05em;
+          text-transform: uppercase;
+        }
+        .workflow-subtitle {
+          font-size: 12px;
+          line-height: 135%;
+        }
+      }
+      .traditional {
+        border: 5px solid #b43847;
+      }
+      .icvr {
+        position: relative;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+
+        //   border: solid #29bec8;
+
+        .progressbar__svg {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          & circle {
+            fill: none;
+            width: 100%;
+            height: 100%;
+            stroke-width: 5;
+            stroke-linecap: round;
+            stroke-dasharray: 200;
+            stroke-dashoffset: 50;
+            stroke: #29bec8;
+          }
+        }
+      }
+      .divider-l {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+  .workflow-container {
+    .workflow-swipper-container {
+      .workflow-swipper {
+        // .swiper-slide {
+        //   display: flex;
+        //   gap: 14px;
+        // }
+        .workflow-swiper-item {
+          width: 221px;
+          height: 90px;
+          padding: 16px 20px;
+          border: 1px solid #b43847;
+          border-radius: 10px;
+          .swiper-item-title {
+            font-size: 14px;
+            line-height: 135%;
+          }
+          .swiper-item-subtitle {
+            font-size: 13px;
+            line-height: 135%;
+            opacity: 0.6;
+          }
+        }
+        .divider-arrow {
+          display: flex;
+          text-align: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+}

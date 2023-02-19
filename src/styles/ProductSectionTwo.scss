@@ -18,10 +18,14 @@
         margin-top: 60px;
         display: flex;
         gap: 15px;
+        @media (max-width: 480px) {
+          margin-top: 40px;
+        }
         .tabsSwipper {
           @media (max-width: 1024px) {
             display: none;
           }
+
           .swiper-slide {
             max-width: 380px;
           }
@@ -34,15 +38,24 @@
           .swiper-slide {
             max-width: 380px;
             // height: 157px;
+            @media (max-width: 480px) {
+              max-width: 315px;
+            }
           }
           .TabItem {
             height: 157px;
             align-items: center;
+            @media (max-width: 480px) {
+              height: 134px;
+            }
           }
         }
       }
       .category-swipper {
         .categorySwipper {
+          .swiper-wrapper {
+            align-items: flex-end;
+          }
           .category {
             h2 {
               font-size: 26px;
