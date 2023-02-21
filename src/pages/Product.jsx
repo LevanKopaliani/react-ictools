@@ -1,5 +1,6 @@
 import MainButton from "../components/MainButton";
 import "../styles/Product.scss";
+import ProductSectionThree from "./Sections/ProductSectionThree";
 import ProductSectionTwo from "./Sections/ProductSectionTwo";
 
 const Product = () => {
@@ -32,6 +33,7 @@ const Product = () => {
         </div>
       </section>
       <ProductSectionTwo />
+      <ProductSectionThree />
     </main>
   );
 };

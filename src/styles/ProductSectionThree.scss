@@ -1,0 +1,39 @@
+.ProductSectionThree {
+  padding: 180px 0;
+  .title {
+    font-size: 55px;
+    line-height: 100%;
+    letter-spacing: 0.03em;
+  }
+  .swipper-container {
+    margin-top: 100px;
+    .projects-swipper {
+      .project-item {
+        position: relative;
+        margin-top: 100px;
+        max-width: 800px;
+        img {
+          display: block;
+          width: 100%;
+        }
+        .item-info {
+          position: absolute;
+          text-align: center;
+          bottom: 0;
+          h3 {
+            font-size: 35px;
+            line-height: 100%;
+          }
+          p {
+            font-size: 14px;
+            line-height: 100%;
+          }
+        }
+      }
+    }
+    .swiper-slide-active {
+      transition: all 0.5s ease;
+      transform: scale(1.5);
+    }
+  }
+}
