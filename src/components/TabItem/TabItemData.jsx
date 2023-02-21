@@ -35,9 +35,9 @@ const TabItemData = [
   },
   {
     img: tab3,
-    name: "Production",
+    name: "Eclectus",
     category: "Pre-Production",
-    title: "Production",
+    title: "Eclectus",
     subtitle: "Pre-Production",
     subSubtitle:
       "Cloud-based Pixel Streaming solution for Unreal Engine and Unity.",

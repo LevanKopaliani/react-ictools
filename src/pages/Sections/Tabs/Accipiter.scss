@@ -1,0 +1,103 @@
+.accipiter {
+  .title {
+    font-size: 44px;
+    line-height: 125%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .accipiter-container {
+    margin-top: 60px;
+    display: flex;
+    gap: 30px;
+    @media (max-width: 1200px) {
+      flex-direction: column-reverse;
+    }
+    justify-content: space-between;
+    .accipiter-list-container {
+      @media (max-width: 1200px) {
+        margin-top: 80px;
+      }
+      @media (max-width: 480px) {
+        margin-top: 60px;
+      }
+      .accipiter-list {
+        position: relative;
+        max-width: 601px;
+
+        .list-item {
+          padding: 0 0 0 42px;
+          position: relative;
+          list-style: none;
+
+          @media (max-width: 480px) {
+            padding: 0 0 0 30px;
+          }
+
+          &:not(:first-child) {
+            margin-top: 35px;
+          }
+
+          h3 {
+            font-size: 24px;
+            line-height: 100%;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+          }
+          p {
+            font-size: 16px;
+            line-height: 140%;
+            opacity: 0.7;
+            margin-top: 15px;
+            &::before {
+              left: -7.5px;
+              position: absolute;
+              content: "";
+              display: inline-block;
+              width: 15px;
+              height: 15px;
+              border-radius: 50%;
+              background: #ffffff;
+              @media (max-width: 480px) {
+                width: 9px;
+                height: 9px;
+                left: -4.5px;
+              }
+            }
+          }
+        }
+        &::before {
+          content: "";
+          position: absolute;
+          left: 0;
+          display: inline-block;
+          width: 1px;
+          height: 100%;
+
+          background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0) 0%,
+            #ffffff 48.79%,
+            rgba(255, 255, 255, 0) 100%
+          );
+          opacity: 0.5;
+        }
+      }
+      .accipiter-button {
+        margin-top: 60px;
+        width: 300px;
+        height: 70px;
+        @media (max-width: 480px) {
+          width: 100%;
+        }
+      }
+    }
+    .accipiter-img {
+      display: inline-block;
+      max-width: 955px;
+      max-height: 555.05px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -8,6 +8,8 @@ import "swiper/css";
 //Tabs
 import Ardenna from "./Tabs/Ardenna";
 import Shearwater from "./Tabs/Shearwater";
+import Accipiter from "./Tabs/Accipiter";
+import Eclectus from "./Tabs/Eclectus";
 //
 
 const ProductSectionTwo = () => {
@@ -126,6 +128,8 @@ const ProductSectionTwo = () => {
             <div className="tabs-content-container">
               {activeTable === "Ardenna" && <Ardenna />}
               {activeTable === "Shearwater" && <Shearwater />}
+              {activeTable === "Accipiter" && <Accipiter />}
+              {activeTable === "Eclectus" && <Eclectus />}
             </div>
           </div>
         </div>
