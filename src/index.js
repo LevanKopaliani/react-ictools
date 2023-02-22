@@ -16,25 +16,28 @@ const Applayout = () => {
   );
 };
 
-const router = createBrowserRouter([
-  {
-    element: <Applayout />,
-    children: [
-      {
-        path: "/",
-        element: <Home />,
-      },
-      {
-        path: "/product",
-        element: <Product />,
-      },
-      {
-        path: "/about",
-        element: <About />,
-      },
-    ],
-  },
-]);
+const router = createBrowserRouter(
+  [
+    {
+      element: <Applayout />,
+      children: [
+        {
+          path: "/",
+          element: <Home />,
+        },
+        {
+          path: "/product",
+          element: <Product />,
+        },
+        {
+          path: "/about",
+          element: <About />,
+        },
+      ],
+    },
+  ],
+  { basename: "/react-ictools/" }
+);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<RouterProvider router={router} />);
