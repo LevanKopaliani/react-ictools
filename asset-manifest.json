@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.59d753e5.css",
+    "main.js": "/static/js/main.0ba27aba.js",
+    "static/media/team.png": "/static/media/team.bbe586c31ae90eafa9f0.png",
+    "static/media/image.png": "/static/media/image.0dd78cedcdd25bccaaed.png",
+    "static/media/homeback.png": "/static/media/homeback.84d6a7228f27c4f5fa73.png",
+    "static/media/electus.png": "/static/media/electus.c7cfed1f8e6fb641a5a8.png",
+    "static/media/project1.png": "/static/media/project1.8e466ead54c0fcdea4e3.png",
+    "static/media/project2.png": "/static/media/project2.b745bf658436934a1e13.png",
+    "static/media/project3.png": "/static/media/project3.5979b68bd088c4b3cdbe.png",
+    "static/media/acceptier.png": "/static/media/acceptier.f831e75950b3f5993ebc.png",
+    "static/media/maplarge.png": "/static/media/maplarge.8b4a21df5f4696557dd7.png",
+    "static/media/mapsmall.png": "/static/media/mapsmall.6b9de9f4e4b54e2496cf.png",
+    "static/media/formular-medium-trial.woff": "/static/media/formular-medium-trial.b61e3ed10c5df80b738e.woff",
+    "static/media/MonumentExtended-Regular.woff": "/static/media/MonumentExtended-Regular.7bbb087c4640abad7ba4.woff",
+    "static/media/formular-regular-trial.woff": "/static/media/formular-regular-trial.8a6c633681608de16a80.woff",
+    "static/media/formular-light-trial.woff": "/static/media/formular-light-trial.84ea5fe3c3350f7e0e3e.woff",
+    "static/media/productsback.png": "/static/media/productsback.2e64fab122c0e766719d.png",
+    "static/media/homemobileback768.png": "/static/media/homemobileback768.34568a69b6f2757d34d4.png",
+    "index.html": "/index.html",
+    "main.59d753e5.css.map": "/static/css/main.59d753e5.css.map",
+    "main.0ba27aba.js.map": "/static/js/main.0ba27aba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59d753e5.css",
+    "static/js/main.0ba27aba.js"
+  ]
+}
