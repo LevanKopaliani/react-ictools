@@ -12,7 +12,11 @@ const ProductSectionThree = () => {
       <div className="wrapper">
         <div className="container">
           <h1 className="title">past project</h1>
-          <div className="swipper-container">
+        </div>
+      </div>
+      <div className="swipper-container">
+        <div className="wrapper">
+          <div className="container">
             <Swiper
               slidesPerView={3}
               centeredSlides={true}
@@ -30,9 +34,9 @@ const ProductSectionThree = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="project-item">
+                <div className="project-item ">
                   <img src={Project1} alt="project" />
-                  <div className="item-info">
+                  <div className="item-info ">
                     <h3>Super Giant Robot Brothers</h3>
                     <p>Virtual Production</p>
                   </div>

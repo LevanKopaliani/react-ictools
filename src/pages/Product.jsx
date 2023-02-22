@@ -1,3 +1,5 @@
+import DemoRequest from "../components/DemoRequest";
+import Footer from "../components/Footer";
 import MainButton from "../components/MainButton";
 import "../styles/Product.scss";
 import ProductSectionThree from "./Sections/ProductSectionThree";
@@ -34,6 +36,8 @@ const Product = () => {
       </section>
       <ProductSectionTwo />
       <ProductSectionThree />
+      <DemoRequest />
+      <Footer />
     </main>
   );
 };
